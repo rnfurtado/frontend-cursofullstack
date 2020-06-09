@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import jobIcon from '../../img/job.png';
 
 import api from '../../services/api';
-import io from 'socker.io-client'
+import io from 'socket.io-client'
 import './index.css';
 
 export default class JobsCard extends Component {
